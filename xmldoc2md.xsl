@@ -34,7 +34,7 @@ URL: http://github.com/jaime-olivares/xmldoc2md
       </xsl:choose>
     </xsl:variable>
     
-    <xsl:text>&#10;##</xsl:text>
+    <xsl:text>&#10;&#10;##</xsl:text>
     <xsl:value-of select="$MemberName"/>
 
     <xsl:apply-templates />
